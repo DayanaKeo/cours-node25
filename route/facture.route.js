@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const invoiceController = require('../controller/invoice.controller');
+const factureController = require('../controller/facture.controller');
 
 // Route pour générer une facture
-router.get('/generationFacture', factureController.generationFacture);
+router.get('/generationFacture', factureController.generateInvoice);
 
 module.exports = router;

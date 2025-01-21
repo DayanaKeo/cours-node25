@@ -15,6 +15,7 @@ const articleRoute = require('./route/article.route');
 const presentationRoute = require('./route/presentation.route');
 const messageEmitter = require('./events');
 const factureRoute = require('./route/facture.route');
+const cryptoRoute = require('./route/crypto.route');
 
 // Connexion à MongoDB
 mongoose
@@ -39,10 +40,11 @@ app.use((err, req, res, next) => {
 app.use('/article', articleRoute);
 app.use('/presentation', presentationRoute);
 app.use('/facture', factureRoute);
+app.use('/crypto', cryptoRoute);
 
 // Démarrage du serveur
 app.listen(port, () => {
   log.writeLog('server2.log', "Serveur demarré");
-  messageEmitter.emit('message_call', req.url);
+  // messageEmitter.emit('message_call', req.url);
   console.log(`Server running on http://localhost:${port}`);
 });
