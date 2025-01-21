@@ -1,0 +1,12 @@
+2025-01-20T12:27:21.569Z - Le serveur a bien demarré 
+2025-01-20T12:32:05.758Z - Serveur demarré 
+2025-01-20T12:54:14.519Z - POST /article/createArticle 
+2025-01-20T13:13:58.111Z - GET /article/getArticle 
+2025-01-20T13:13:58.170Z - GET /favicon.ico 
+2025-01-20T13:14:11.784Z - GET /article/getArticle 
+2025-01-20T13:16:20.237Z - GET /article/getArticle 
+2025-01-20T13:16:53.512Z - POST /presentation/ 2025-01-20T13:25:05.085Z - GET /presentation/ 
+2025-01-20T13:25:25.814Z - GET /presentation/getPresentation 
+2025-01-20T13:37:35.963Z - POST /presentation/ 
+2025-01-20T15:34:13.657Z - GET /facture/generationFacture 
+2025-01-20T15:34:15.907Z - GET /facture/generationFacture 
