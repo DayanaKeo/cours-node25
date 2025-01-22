@@ -1,0 +1,10 @@
+01-22-2025 11:44:26 info: Server running on http://localhost:5001
+01-22-2025 11:44:26 info: BDD connecté
+01-22-2025 11:44:51 info: Requ^te POST - /test-error - IP : ::1
+01-22-2025 11:45:13 info: Requ^te POST - /test-error - IP : ::1
+01-22-2025 11:54:37 info: Requ^te POST - /test-error - IP : ::1
+01-22-2025 11:54:47 info: Requ^te POST - /test-error - IP : ::1
+01-22-2025 13:26:53 info: Requ^te POST - /test-error - IP : ::1
+01-22-2025 13:27:03 info: Server running on http://localhost:5001
+01-22-2025 13:27:03 info: BDD connecté
+01-22-2025 13:27:07 info: Requ^te POST - /test-error - IP : ::1
